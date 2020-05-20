@@ -11,7 +11,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeModule } from './home/home.module';
-import { HttpClientModule }    from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { QuicklinkModule } from 'ngx-quicklink'
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { HttpClientModule }    from '@angular/common/http';
     MatIconModule,
     MatListModule,
     HomeModule,
-    HttpClientModule
+    HttpClientModule,
+    QuicklinkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
